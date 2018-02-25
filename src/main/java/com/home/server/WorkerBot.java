@@ -10,15 +10,7 @@ import org.telegram.telegrambots.exceptions.TelegramApiException;
 
 public class WorkerBot extends TelegramLongPollingBot {
 
-    public static void main(String[] args) {
-        ApiContextInitializer.init();
-        TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
-        try {
-            telegramBotsApi.registerBot(new WorkerBot());
-        } catch (TelegramApiException e) {
-            e.printStackTrace();
-        }
-    }
+
 
     @Override
     public String getBotUsername() {

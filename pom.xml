@@ -17,7 +17,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.home.server.WorkerBot</mainClass>
+                            <mainClass>com.home.server.Main</mainClass>
                             <name>WorkerBot</name>
                         </program>
                     </programs>
