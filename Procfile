@@ -1,1 +1,1 @@
-worker: sh target/bin/WorkerBot
+web: java -jar target/dima-1.0-SNAPSHOT-jar-with-dependencies.jar
