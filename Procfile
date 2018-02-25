@@ -1,1 +1,1 @@
-worker: sh target/bin/Main
+worker: java -jar target/dima-1.0-SNAPSHOT-jar-with-dependencies.jar com.home.server.Main
