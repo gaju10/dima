@@ -18,7 +18,7 @@
                     <programs>
                         <program>
                             <mainClass>com.home.server.Main</mainClass>
-                            <name>WorkerBot</name>
+                            <name>Main</name>
                         </program>
                     </programs>
                 </configuration>
