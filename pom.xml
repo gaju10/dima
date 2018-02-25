@@ -17,7 +17,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.home.server.TelegramBot</mainClass>
+                            <mainClass>com.home.server.WorkerBot</mainClass>
                             <name>WorkerBot</name>
                         </program>
                     </programs>
@@ -39,21 +39,7 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
-
-                    <plugin>
-                        <artifactId>maven-assembly-plugin</artifactId>
-                        <configuration>
-                            <archive>
-                                <manifest>
-                                    <mainClass>com.home.server.WorkerBot</mainClass>
-                                </manifest>
-                            </archive>
-                            <descriptorRefs>
-                                <descriptorRef>jar-with-dependencies</descriptorRef>
-                            </descriptorRefs>
-                        </configuration>
-                    </plugin>
-                </plugins>
+        </plugins>
     </build>
     <dependencies>
     <dependency>
